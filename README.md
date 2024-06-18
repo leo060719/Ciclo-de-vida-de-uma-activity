@@ -1,9 +1,7 @@
 # Ciclo-de-vida-de-uma-activity
 
 ## Integrantes:
--Leonardo dos Santos
--Daniele Barbosa
--Celso Gabriel
+-Leonardo dos Santos -Daniele Barbosa -Celso Gabriel
 
 ## Ciclo de vida da activity
 - Existem 6 métodos no ciclo de vida de uma activity: onCreate, onStart, onResume, onPause, onStop e onDestroy.
