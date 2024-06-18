@@ -15,12 +15,12 @@ Método: 'onCreat()'
 - É também onde devem ser instanciadas as variavéis a serem utilizadas na activity.
 - É definido o ficheiro de layout
 
-  **Started**
-  Método: 'onStart()'
+ **Started**
+  -Método: 'onStart()'
   -Método criado anterior à apresentação da activity para o utilizador.
 
   **Resumed**
-  Método: 'onResume()'
+  -Método: 'onResume()'
   -É chamado quando a activity está pronta para ser executada e aguarda a manipulação do utilizador.
   -A activite se mantém até a activity sofrer uma alteração(ser fechada ou retirada do ecrã principal).
 
