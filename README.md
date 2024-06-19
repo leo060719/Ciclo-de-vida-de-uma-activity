@@ -5,6 +5,22 @@
  - Daniele Barbosa
  - Celso Gabriel
 
+   
+## O que é uma Activity no Android?
+- Activity no android é uma tela com uma interface de usuário, que permite experiências ao usuário e interatividade.
+- Podemos citar como exemplo uma tela de e-mail, que pode contar a listagem de e-mails recebidos.
+
+## Entenda como é Ciclo de Vida de uma Activity
+-  O ciclo de vida de uma Activity pode ser considerado como um conjunto de callbacks onde permite que as Activity saibam que seus status estão mudando.
+-  Esses callbacks fazem com que a Activity tenha a oportunidade de se comportar de maneira apropriada quando o usuário entra e sai de um aplicativo.
+- Sabendo disso, podemos citar como os principais Callbacks e estados que as activity podem existir como sendo:
+* onCreate();
+* onStart();
+* onResume();
+* onPause();
+* onStop();
+* onRestart();
+* onDestroy();
 
 ## Ciclo de vida da activity
 - Existem 6 métodos no ciclo de vida de uma activity: onCreate, onStart, onResume, onPause, onStop e onDestroy.
