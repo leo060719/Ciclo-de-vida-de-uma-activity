@@ -20,14 +20,15 @@
 - Sabendo disso, podemos citar como os principais Callbacks e estados que as activity podem existir como sendo:
 
 ## onCreate() 
--É um método da classe ACTIVITY, na qual chamamos quando estamos criando uma atividade, sendo assim um dos primeiros métodos a serem execultados no ciclo de vida de uma Activity.
+- É um método da classe ACTIVITY, na qual chamamos quando estamos criando uma atividade, sendo assim um dos primeiros métodos a serem execultados no ciclo de vida de uma Activity.
  - Para ultilizar este método primeiro temos que configurar a interface do usuparo, onde é o local que definimos o layoute da atividade, podemos usar o " setContentView() ", após isto iniciamos os componentes da interface do usuário, podemos usar os métodos como " findViewById() ".
 
    ![onCreate](img/OnCreate.png)
 
   
  ## onStart()
- - 
+ - Esse callback é invocado quando a Activity sai do estado de interrompida (onStop()) e volta a ser utilizada.
+ - Esse método é executado rapidamente e, finalizada essa etapa, a Activity passa para o próximo estado, em que estará pronta para realizar os processos de interação com quem vai utilizar o aplicativo.
 * onResume();
 * onPause();
 * onStop();
