@@ -46,6 +46,8 @@
  ## 'onDestroy()'
  - O método onDestroy() é chamado quando a Activity será destruída e isso pode acontecer devido ao fato de a pessoa usuária descartar completamente o aplicativo, ou então quando ocorre alguma mudança de configuração como a rotação da tela.
  - Se o aplicativo for fechado, o onDestroy() será o callback final do ciclo de vida. Porém, caso tenha sido chamado devido a uma mudança de configuração do sistema, criará automaticamente uma nova instância da Activity e chamará o método onCreate() para essa nova configuração.
+ - Todos esses métodos estão implicitos à criação da activity, no entanto podem ser reescritos utilizando a anotação @Override e a chamada ao método principal.
+
 
 ## Abaixo um exemplo de classe Activity:
 - Na imagem abaixo temos a importação da Activity, na qual é a base para todas as atividades android, a classe Bundle que usamos para passar dados entre as atividades e em seguida a classe TextView, na qual é um widget de interfade do usuário para exibir o texto.
@@ -56,7 +58,6 @@ chamamos o método 'public void onCreate (Bundle savedInstanceState)' quando a a
    ![onCreate](img/OnCreate.png)
 
 
-- Todos esses métodos estão implicitos à criação da activity, no entanto podem ser reescritos utilizando a anotação @Override e a chamada ao método principal.
 
 ## **Considerações Finais**
 
