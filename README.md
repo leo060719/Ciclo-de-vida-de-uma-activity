@@ -59,7 +59,7 @@ chamamos o método 'public void onCreate (Bundle savedInstanceState)' quando a a
 
    ![xml](img/xml.png)
 
-   ![adroid](img/android.png)
+   ![android](img/android.png)
 
    ![string](img/stringXml.png)
 
