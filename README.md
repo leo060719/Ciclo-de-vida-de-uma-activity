@@ -19,8 +19,7 @@
  - Para ultilizar este método primeiro temos que configurar a interface do usuparo, onde é o local que definimos o layoute da atividade, podemos usar o " setContentView() ", após isto iniciamos os componentes da interface do usuário, podemos usar os métodos como " findViewById() ".
 
    EX: 
-  EX: 
-   ![onCreate](img/OnCreate.png.png.png)
+   ![onCreate](img/OnCreate.png)
 
   
 * onStart();
