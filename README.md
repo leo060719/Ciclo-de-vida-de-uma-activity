@@ -60,7 +60,7 @@ O maior proveito que pode-se ser tirado de um ciclo de vida de uma Activity reca
 
 
 
-**Neste mesmo repositório, também está incluso uma imagem (fluxo) que exemplifica toda a ordem de preocesso desses métodos.**
+**Neste mesmo repositório, também está incluso uma imagem (fluxo) que exemplifica toda a ordem de processo usual desses métodos.**
 
 
   
