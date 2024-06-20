@@ -66,6 +66,9 @@ um contêiner que oganiza seus filhos numa unica coluna. Neste caso utilizando '
 - Este arquivo de manifesto define as configurações básicas e os componentes do aplicativo. 
 
    ![android](img/android.png)
+- Este código XML define strings de recursos para um aplicativo Android. Ele faz parte dos arquivos de recursos que permitem a internacionalização e a fácil manutenção de texto dentro do aplicativo.
+- Essa abordagem de usar arquivos de recursos para strings permite fácil tradução e manutenção, pois todas as strings do aplicativo ficam centralizadas em um único local, tornando simples a localização e a modificação do texto sem precisar alterar o código ou o layout diretamente.
+
 
    ![string](img/stringXml.png)
 
