@@ -26,7 +26,7 @@
 - Todos esses métodos estão implicitos à criação da activity, no entanto podem ser reescritos utilizando a anotação @Override e a chamada ao método principal.
 
 ## Created:
-Método: 'onCreat()'
+Método: 'onCreate()'
 - É chamado quando a activity é criada e inicializada.
 - É também onde devem ser instanciadas as variavéis a serem utilizadas na activity.
 - É definido o ficheiro de layout
