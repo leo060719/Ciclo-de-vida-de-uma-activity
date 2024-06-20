@@ -57,6 +57,10 @@ chamamos o método 'public void onCreate (Bundle savedInstanceState)' quando a a
 
    ![onCreate](img/OnCreate.png)
 
+- Nesta segunda imagem temos a declaração do xml e sua versão, apois isto temos o Layout. 
+um contêiner que oganiza seus filhos numa unica coluna. Neste caso utilizando 'Vertical' para organizar, o xmlns deve o nameespace padrao atribuidos do android. O fill parente faz o layout ocupar toda largura do pai, assim como altura também.
+- No TextView o widget da interface do usuário exibie o texto e o @string/hello define o texto a ser exibido.
+
    ![xml](img/xml.png)
 
    ![android](img/android.png)
