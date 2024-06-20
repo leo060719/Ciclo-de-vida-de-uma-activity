@@ -75,12 +75,7 @@ um contêiner que oganiza seus filhos numa unica coluna. Neste caso utilizando '
 
 ## Exemplo com a classe 'Activity' completa:
 
-import android.app.Activity; <!-- Importando a classe Activity -->
-import android.os.Bundle;  <!-- importando a classe Bundl onde passamos as atividades -->
-import android.util.Log; <!-- Importando a classe logo que registra as atividades -->
-import android.widget.TextView; <!-- Importando a classe TextView que faz com que a mensagem que desejamos apareca para o usuário -->
-
-public class HelloActivity extends Activity {
+    public class HelloActivity extends Activity {
 
     private static final String TAG = "Olá mundo";  Define uma constante para mensagem de log
 
