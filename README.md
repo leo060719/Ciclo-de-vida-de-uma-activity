@@ -10,18 +10,24 @@
 - Activity no android é uma tela com uma interface de usuário, que permite experiências ao usuário e interatividade.
 - Podemos citar como exemplo uma tela de e-mail, que pode contar a listagem de e-mails recebidos.
 
+## Fluxograma de um ciclo de vida das Activity
+
+![ciclo](img/ciclo.png)
+
 ## Entenda como é Ciclo de Vida de uma Activity
 -  O ciclo de vida de uma Activity pode ser considerado como um conjunto de callbacks onde permite que as Activity saibam que seus status estão mudando.
 -  Esses callbacks fazem com que a Activity tenha a oportunidade de se comportar de maneira apropriada quando o usuário entra e sai de um aplicativo.
 - Sabendo disso, podemos citar como os principais Callbacks e estados que as activity podem existir como sendo:
 
-** onCreate() = É um método da classe ACTIVITY, na qual chamamos quando estamos criando uma atividade, sendo assim um dos primeiros métodos a serem execultados no ciclo de vida de uma Activity.
+## onCreate() 
+-É um método da classe ACTIVITY, na qual chamamos quando estamos criando uma atividade, sendo assim um dos primeiros métodos a serem execultados no ciclo de vida de uma Activity.
  - Para ultilizar este método primeiro temos que configurar a interface do usuparo, onde é o local que definimos o layoute da atividade, podemos usar o " setContentView() ", após isto iniciamos os componentes da interface do usuário, podemos usar os métodos como " findViewById() ".
 
    ![onCreate](img/OnCreate.png)
 
   
-* onStart();
+ ## onStart()
+ - 
 * onResume();
 * onPause();
 * onStop();
@@ -64,8 +70,6 @@ Cada um desses pontos são importantes pois permitem que você gerencie como sua
 O maior proveito que pode-se ser tirado de um ciclo de vida de uma Activity recai sobre o uso devido de cada um dos seus respectivos métodos. Entre os beneficios pode ser citado a opção de salvar e restaurar o estado da Activity, garantindo que os dados não sejam perdidos durante mudanças de configuração ou interações com o usuário e que a aplicação responda de forma dinâmica às interações do usuário, como por exemplo, igual a "pausar um vídeo" quando a Activity própria é pausada. A pessoa estar mais imersa e no controle do funcionamento da lógica de seu código. Vale ressaltar que os métodos do ciclo de vida mencionados não são exclusivos do Kotlin; eles fazem parte da estrutura de desenvolvimento Android e estão presentes em outras linguagens suportadas para Android, como Java.
 
 
-
-**Neste mesmo repositório, também está incluso uma imagem (fluxo) que exemplifica toda a ordem de processo usual desses métodos.**
 
 
   
