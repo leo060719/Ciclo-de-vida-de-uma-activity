@@ -73,7 +73,58 @@ um contêiner que oganiza seus filhos numa unica coluna. Neste caso utilizando '
    ![string](img/stringXml.png)
 
 
+## Exemplo com a classe 'Activity' completa:
 
+import android.app.Activity; // Importando a classe Activity 
+import android.os.Bundle; // importando a classe Bundl onde passamos as atividades
+import android.util.Log; // Importando a classe logo que registra as atividades
+import android.widget.TextView; // Importando a classe TextView que faz com que a mensagem que desejamos apareca para o usuário
+
+public class HelloActivity extends Activity {
+
+    private static final String TAG = "Olá mundo"; // Define uma constante para mensagem de log
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);  // Definilção do layout da atividade pelo arquivo xml
+        setContentView(R.layout.activity_hello); 
+
+        TextView tv = findViewById(R.id.text_view_hello); // Inicializa o TextView a partir do layout
+        tv.setText("Bem-vindo!"); // Define o texto que sera exibido
+        
+        Log.d(TAG, "onCreate() called"); // Registrando uma mensagem de log para iniciar o método onCreate 
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();   // Registra de uma mensagem de log indicando que o método onStart
+        Log.d(TAG, "onStart() called");
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();  // Registra uma mensagem de log indicando que o método onResume
+        Log.d(TAG, "onResume() called");
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause(); // Registra uma mensagem de log indicando que o método onPause
+        Log.d(TAG, "onPause() called");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop(); // Registra uma mensagem de log indicando que o método onStop 
+        Log.d(TAG, "onStop() called");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy(); // Registra uma mensagem de log indicando que o método onDestroy 
+        Log.d(TAG, "onDestroy() called");
+    }
+}
 
 
 ## **Considerações Finais**
