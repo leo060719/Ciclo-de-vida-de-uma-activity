@@ -15,7 +15,18 @@
 -  Esses callbacks fazem com que a Activity tenha a oportunidade de se comportar de maneira apropriada quando o usuário entra e sai de um aplicativo.
 - Sabendo disso, podemos citar como os principais Callbacks e estados que as activity podem existir como sendo:
 
-* onCreate();
+** onCreate() = É um método da classe ACTIVITY, na qual chamamos quando estamos criando uma atividade, sendo assim um dos primeiros métodos a serem execultados no ciclo de vida de uma Activity.
+ - Para ultilizar este método primeiro temos que configurar a interface do usuparo, onde é o local que definimos o layoute da atividade, podemos usar o " setContentView() ", após isto iniciamos os componentes da interface do usuário, podemos usar os métodos como " findViewById() ".
+
+   EX: 
+  
+  
+  
+
+
+
+
+  
 * onStart();
 * onResume();
 * onPause();
