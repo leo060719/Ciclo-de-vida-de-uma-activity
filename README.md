@@ -77,7 +77,7 @@ um contêiner que oganiza seus filhos numa unica coluna. Neste caso utilizando '
 
     public class HelloActivity extends Activity {
 
-    private static final String TAG = "Olá mundo";  Define uma constante para mensagem de log
+    private static final String TAG = "Olá mundo";  // Define uma constante para mensagem de log
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
