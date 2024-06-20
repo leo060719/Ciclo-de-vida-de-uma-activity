@@ -10,7 +10,7 @@
 - Activity no android é uma tela com uma interface de usuário, que permite experiências ao usuário e interatividade.
 - Podemos citar como exemplo uma tela de e-mail, que pode contar a listagem de e-mails recebidos.
 
-## Fluxograma de um ciclo de vida das Activity
+## Fluxograma de um Ciclo de Vida da Activity
 
 ![ciclo](img/ciclo.png)
 
