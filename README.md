@@ -62,6 +62,8 @@ um contêiner que oganiza seus filhos numa unica coluna. Neste caso utilizando '
 - No TextView o widget da interface do usuário exibie o texto e o @string/hello define o texto a ser exibido.
 
    ![xml](img/xml.png)
+  - Este código XML é o arquivo de manifesto (AndroidManifest.xml) de um aplicativo Android. O manifesto é um arquivo essencial para qualquer aplicativo Android, pois ele fornece informações sobre o aplicativo ao sistema Android.
+  - Este arquivo de manifesto define as configurações básicas e os componentes do aplicativo. 
 
    ![android](img/android.png)
 
