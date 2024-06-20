@@ -22,8 +22,6 @@
 * onRestart();
 * onDestroy();
 
-## Ciclo de vida da activity
-- Existem 6 métodos no ciclo de vida de uma activity: onCreate, onStart, onResume, onPause, onStop e onDestroy.
 - Todos esses métodos estão implicitos à criação da activity, no entanto podem ser reescritos utilizando a anotação @Override e a chamada ao método principal.
 
 ## Created:
